@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+.block-section {
+    background: rgb(213, 205, 223);
+    height: 750px;
+    overflow: auto;
+    border: 1px solid #000;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.block {
+    background-color: rgb(209, 167, 131);
+    width: 400px;
+    height: 300px;
+    padding: 30px;
+    margin: 10px;
+    box-shadow: inset 0px 0px 7px #000;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+p {
+    font-size: 28px;
+}
+
+h1 {
+    font-size: 35px;
+}
